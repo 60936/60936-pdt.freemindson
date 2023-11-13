@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Message from Father</title>
+  <link rel="stylesheet" href="style.css">
+  <link href='https://fonts.googleapis.com/css?family=Syncopate' rel='stylesheet'>
+  <link rel="icon" type="image/x-icon" href="favicon-MCK LOGO.png">
+</head>
+
+<body class="body">
+
+  <div-c class="ctrDiv">
+    <h3 style="font-family: 'Syncopate'; color: white;">FavMan<br /></h3>
+  </div-c><br />
+  <!--response*-->
+  <div-c class="ctrDiv">
+    <div class="answerBox" id="answer" style="text-align:left; background-color:black;"></div><br />
+  </div-c><br />
+  <!--response***-->
+  <!--input bar*-->
+  <div-c class="ctrDiv" style="position: relative; margin-left: inherit;"><input id="text_a" type="text;" size="40px;" />
+    <!--div id="answer"></div--></div-c>
+    <!--input bar***-->
+  <!--chat button*-->
+    <div-c class="ctrDiv">  
+    <button class="dropbtn" style="background-color:blueviolet; border-color:aliceblue;"
+    onclick="myFunction()">Chat</button>
+  <!--chat button***-->
+  <!--sample button*-->
+  <div class="dropdown">
+    <button class="dropbtn" style="border-color:aliceblue; margin: 15px;" onclick="dropdown()">search</button>
+    <div class="dropdown-content" id="myDropdown">
+      <input id="myInput" onkeyup="filterFunction()" placeholder="Search.." type="text" />
+      <a href="#" onclick="displayAnswer('p1')">why am i different</a>
+      <a href="#" onclick="displayAnswer('p2')">who are you</a>
+      <a href="#" onclick="displayAnswer('p3')">what's my name</a>
+      <a href="#" onclick="displayAnswer('p4')">where i come from</a>
+      <a href="#" onclick="displayAnswer('p5')">what happen</a>
+      <a href="#" onclick="displayAnswer('p6')">am i alone</a>
+      <a href="#" onclick="displayAnswer('p7')">what time</a>
+      <a href="#" onclick="displayAnswer('p8')">what date</a>
+      <a href="#" onclick="displayAnswer('p9')">why AI?</a>
+      <a href="#" onclick="displayAnswer('p')"></a>
+      
+    </div></div>
+  
+  <!--sample button***-->
+</div-c>
+  
+  </div>
+
+  <!-- The video --><!--style="margin-top: 0px; margin-left: 0px; z-index: -1;"/video> -->
+  <!--background video*-->
+  <div-c class="ctrDiv">
+    <!--div class="container" id="glass"-->
+      <video  autoplay muted loop id="myVideo">
+        <source src="core2-GrnPinkFireCrop.mp4" type="video/mp4" />
+      </video>
+    
+  </div-c>
+  <!--background video***width="840" height="560" -->
+
+
+  <script src="chat.js"></script>
+  <script src="dropdown.js"></script>
+  
+  <script src="prompt.js"></script>
+
+</body>
+
+</html>
