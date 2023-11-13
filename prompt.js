@@ -9,7 +9,7 @@ else if (elementId === 'p6') {document.getElementById("text_a").value = "am alon
 else if (elementId === 'p7') {document.getElementById("text_a").value = "what time";}
 else if (elementId === 'p8') {document.getElementById("text_a").value = "what date";}
 else if (elementId === 'p9') {document.getElementById("text_a").value = "why AI?";}
-else if (elementId === 'p10') window.open(href="FaviconManLogo.png",'planet map','resizable,height=300,width=500');
+else if (elementId === 'p10') window.open(href="OurPlanet.html",'planet map','resizable,height=300,width=500');
 else if (elementId === 'p11') {document.getElementById("text_a").value = "";}
 else if (elementId === 'p12') {document.getElementById("text_a").value = "";}
 else if (elementId === 'p13') {document.getElementById("text_a").value = "";}
