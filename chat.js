@@ -51,7 +51,7 @@ function myFunction() {
 		
 	//	else if(inputText.toLowerCase().indexOf("xx")>-1){document.getElementById("answer").innerHTML='<a href="">mt</a>';}
 	// else if(inputText.toLowerCase().indexOf("xxx")>-1){document.getElementById("answer").innerHTML='<a href="" target="_blank">link1</a><br><a href="" target="_blank">link2</a><br>';} 	
-	else {answerElement.innerHTML = `I do not understand your input '${inputText}', perhaps you could rephrase your question<br>Or email your trustees what was your question for us to update an appropriate response.<br><a href="mailto:mckeenweb@gmail.com?&subject=JapBot%20Enquiry&body=Thank%20you%20for%20your%20email%20to%20McKeen%20Web", style="background-color:red; color:white;" target="_blank">email</a>`;}
+	else {answerElement.innerHTML = `I do not understand your input '${inputText}', perhaps you could rephrase your question<br>Or email your trustees what was your question for us to update an appropriate response from Cryptonian computer.<br><a href="mailto:mckeenweb@gmail.com?&subject=JapBot%20Enquiry&body=Thank%20you%20for%20your%20email%20to%20McKeen%20Web", style="background-color:red; color:white;" target="_blank">email</a>`;}
 			
 	      
 	}
