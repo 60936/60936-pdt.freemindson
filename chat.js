@@ -42,6 +42,10 @@ function myFunction() {
 
 		else if(inputText.toLowerCase().indexOf("why")>-1&&inputText.toLowerCase().indexOf("ai")>-1){document.getElementById("answer").innerHTML=`As foretold in the story of soberman, his father uses AI to reveal to him his origin, things his father did not have the opportunity to teach, to tell him. Thus creating an AI chat for your love ones / customers / diciples, as current or parting memories, words you could not bring yourself to say in person, in your own words is so powerful.<br> Some worthy Words quotes:<br>"The best word shakers were the ones who understood the true power of words. They were the ones who could climb the highest." -Markus Zusak <br>"No matter what anybody tells you, words and ideas can change the world." -John Keating <br>"Speech has power. Words do not fade. What starts out as a sound, ends in a deed." -Abraham Joshua Herschel`;}	
 			
+		else if(inputText.toLowerCase().indexOf("3 clones")>-1){document.getElementById("answer").innerHTML=`Yes, Earthings are an insecure species, they are afraid of everything they don't understand, quick to jump to conclusions without much thought.  The 3 nemesis are necessary as an initiation process to preserve your place on Earth.  They are general Zombie, and his two lieutenants Noob and Sexy.  Have a good fight son.
+		`;}
+
+		else if(inputText.toLowerCase().indexOf("weaknesses")>-1){document.getElementById("answer").innerHTML=`Because Earthlings are a insecure bunch, especially their leaders in power, we cannot have them worrying about your superior existence all the time.  I've fabricated you a ridiculous weakness to cryptonite poisoning, your cryptonian soil that can weaken you to mere mortal and eventually die.  In reality, its just like a drug that just stops your bodily functions allowing your body to go into hibernation and reboot mode.  You look dead, but you are not dead.  After the reboot process is complete, you will revive again like new.`;}
 //Sample codes	
 	//else if(inputText.toLowerCase().indexOf("")>-1){document.getElementById("answer").innerHTML="";} 
 		
