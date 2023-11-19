@@ -29,9 +29,9 @@ function myFunction() {
 		else if(inputText.toLowerCase().indexOf("why")>-1&&inputText.toLowerCase().indexOf("diff")>-1){
 			document.getElementById("answer").innerHTML=`Earth's is older and mineral rich than Crypton was. Your DNA have mutated from consequential space travel from space radiation, strengthening your muscles, your skin, your senses. Earth's gravity is stronger, yet its atmosphere is more polluted. You've grown stronger here than I ever could have imagined. The only way to know how strong, is to keep testing your limits.`;}
 		
-		else if(/\byou\b/.test(inputText.toLowerCase())||inputText.toLowerCase().indexOf("who")>-1){document.getElementById("answer").innerHTML=`I am your father, Galord, or at least an image of him. An AI construct of his consciousness. My name is Gor-Li`;} 
+		else if(/\byou\b/.test(inputText.toLowerCase())||inputText.toLowerCase().indexOf("who")>-1){document.getElementById("answer").innerHTML=`I am your father, Gaylord, or at least an image of him. An AI construct of his consciousness. My name is Gor-Li`;} 
 
-		else if(inputText.toLowerCase().indexOf("my name")>-1){document.getElementById("answer").innerHTML=`I named you Galord.`;} 
+		else if(inputText.toLowerCase().indexOf("my name")>-1){document.getElementById("answer").innerHTML=`I named you Gaylord.`;} 
 
 		else if(inputText.toLowerCase().indexOf("where")>-1){document.getElementById("answer").innerHTML=`You came from Crypton, a world with a much puritanical environment than Earth's. Long ago, in an era of expansion, our species spread out through the galaxies, seeking new planets to settle upon. This space ship was one of thousands launched into the void. We built outposts on other planets, using terra-forming machines to reshape environments to our needs. For 100 thousand years our civilization flourished, accomplishing wonders.`;} 
 
