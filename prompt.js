@@ -8,7 +8,7 @@ else if (elementId === 'p5') {document.getElementById("text_a").value = "what ha
 else if (elementId === 'p6') {document.getElementById("text_a").value = "am alone";}
 else if (elementId === 'p7') {document.getElementById("text_a").value = "what time";}
 else if (elementId === 'p8') {document.getElementById("text_a").value = "what date";}
-else if (elementId === 'p9') window.open(href="OurPlanet.html",'planet map','resizable,height=300,width=500');
+else if (elementId === 'p9') window.open(href="OurPlanet.html",'planet map','resizable,height=450,width=400');
 else if (elementId === 'p10') {document.getElementById("text_a").value = "why AI?";}
 else if (elementId === 'p11') {document.getElementById("text_a").value = "";}
 else if (elementId === 'p12') {document.getElementById("text_a").value = "";}
